@@ -1,0 +1,20 @@
+/* Estilos NavBar */
+.btn-main > li > a {
+  border-radius: 5px;
+  border: solid 1px #817575;
+  color: #817575;
+  font-family: "Quicksand";
+  margin-top: 0.5em;
+}
+
+.link-container {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-navbar {
+  background-color: #f5f0eb;
+  border-radius: 20px;
+}

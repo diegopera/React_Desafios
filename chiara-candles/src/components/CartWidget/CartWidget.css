@@ -1,0 +1,12 @@
+.main-links {
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    margin-right: 0.5em;
+  }
+  .main-links li {
+    margin-right: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
