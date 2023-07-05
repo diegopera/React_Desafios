@@ -2,18 +2,18 @@ import './CartWidget.css'
 
 function CartWidget () {
     return (
-        <div class="col-3">
-        <div class="link-container">
-          <ul class="main-links btn-main">
+        <div className="col-3">
+        <div className="link-container">
+          <ul className="main-links btn-main">
             <li>
               <img
                 src="./media/checkOut.png"
                 alt="cart"
                 width="30"
                 height="30"
-                class="cart-img"
+                className="cart-img"
               />
-              <a id="showCart" href="" class="btn">
+              <a id="showCart" href="" className="btn">
                 Carrito
               </a>
             </li>
@@ -23,9 +23,9 @@ function CartWidget () {
                 alt="cart"
                 width="30"
                 height="30"
-                class="cart-img"
+                className="cart-img"
               />
-              <a id="emptyCart" href="" class="btn">
+              <a id="emptyCart" href="" className="btn">
                 Vaciar Carrito
               </a>
             </li>
@@ -35,9 +35,9 @@ function CartWidget () {
                 alt="username"
                 width="30"
                 height="30"
-                class="usr-img"
+                className="usr-img"
               />
-              <a id="loginRegister" href="" class="btn">
+              <a id="loginRegister" href="" className="btn">
                 Login
               </a>
             </li>

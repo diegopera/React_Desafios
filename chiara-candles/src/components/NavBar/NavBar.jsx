@@ -3,19 +3,19 @@ import "./NavBar.css"
 
 function NavBar() {
   return (
-    <div class="container-fluid sticky-top main-navbar">
-      <div class="row">
-        <div class="col-9">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="./index.html">
+    <div className="container-fluid sticky-top main-navbar">
+      <div className="row">
+        <div className="col-9">
+          <nav className="navbar navbar-expand-lg navbar-light">
+            <div className="container-fluid">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link" href="./index.html">
                     Inicio
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./index.html">
+                <li className="nav-item">
+                  <a className="nav-link" href="./index.html">
                     Nosotros
                   </a>
                 </li>

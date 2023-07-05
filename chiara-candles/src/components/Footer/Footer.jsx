@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer>
-      <div class="footer-container">
+      <div className="footer-container">
         <h2>Chiara Candles</h2>
         <h2>Seguinos en Instagram!</h2>
         <a
@@ -15,7 +15,7 @@ function Footer() {
             alt="instagram"
             width="40"
             height="40"
-            class="social"
+            className="social"
           />
         </a>
         <h3>All Rights Reserved</h3>
@@ -29,7 +29,7 @@ function Footer() {
           alt="whatsapp"
           width="60"
           height="60"
-          class="whats"
+          className="whats"
         />
       </a>
     </footer>
