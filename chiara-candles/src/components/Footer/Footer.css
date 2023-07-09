@@ -18,8 +18,10 @@
   
   h2 {
     font-size: 15px;
+    cursor: default;
   }
   
   h3 {
     font-size: 10px;
+    cursor: default;
   }

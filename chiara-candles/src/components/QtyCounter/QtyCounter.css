@@ -14,10 +14,14 @@
     height: 25px;
     background-color: #f5f0eb;
     text-align: center;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    cursor: default;
   }
   
   .count {
     text-align: center;
     width: 30px;
-    height: 25px 
+    height: 25px;
+    cursor: pointer;
   }
