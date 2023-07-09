@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       <NavBar />
-      <ItemListContainer greetings="Bievenidos - Primera Entrega React"/>
+      <ItemListContainer/>
       <Footer />
     </div>
 

@@ -1,0 +1,18 @@
+.btn-addtc {
+    border: solid 1px black;
+    color: black;
+    margin-top: 0.5em;
+  }
+  .btn-addtc.active {
+    background-color: #f5f0eb;
+    border: solid 1px black;
+    color: black;
+    margin-top: 0.5em;
+  }
+  .btn-addtc:hover {
+    background-color: #817575;
+    color: #f5f0eb;
+    border: solid 1px black;
+    opacity: 100%;
+    transition: opacity 1s;
+  }
