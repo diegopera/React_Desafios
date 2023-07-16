@@ -1,0 +1,25 @@
+.det-prod-container {
+  display: flex;
+  align-items: center;
+}
+
+.det-prod-container div img {
+  width: 50%;
+  border-radius: 20px;
+  opacity: 50%;
+}
+.det-prod-container div img:hover {
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+.det-prod-container div p {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 0.5em;
+  cursor: default;
+}
+
+b {
+  cursor: default;
+}

@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 function Header() {
   return (
     <header>
       <div className="logo-container">
-        <a href="./index.html">
+        <Link to="/">
           <img
             src="./media/logo.png"
             alt="logo"
@@ -12,7 +13,7 @@ function Header() {
             height="113"
             className="logo"
           />
-        </a>
+        </Link>
         <h1>Chiara Candles Online Shop</h1>
       </div>
     </header>
