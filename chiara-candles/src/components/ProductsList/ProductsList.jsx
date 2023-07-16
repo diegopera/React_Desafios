@@ -1,6 +1,4 @@
 import currencyConverter from "../../services/currencyConv";
-// import ClassicButton from "../ClassicButton/ClassicButton";
-// import QtyCounter from "../QtyCounter/QtyCounter";
 import "./ProductsList.css";
 import { Link } from "react-router-dom";
 
@@ -20,12 +18,6 @@ let itemPriceARS = currencyConverter(prodPrice);
           />
         </Link>
           <b>{prodName} - {itemPriceARS}</b>
-          {/* <p id={prodID}>
-            <b>{prodName}</b> Stock Disponible: <b>{prodStock}</b>
-          </p>
-          <b>{itemPriceARS}</b> */}
-          {/* <QtyCounter qtyLimit={prodStock}></QtyCounter> */}
-          {/* <ClassicButton itemID={prodID}>Ver Producto</ClassicButton> */}
         </div>
 
   );
