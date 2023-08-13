@@ -2,9 +2,9 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, doc, addDoc, getDoc, query, where, writeBatch } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDlGQOUgdOaDDepUuaOTfM83uDpr61_ReI",
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "chiara-candles.firebaseapp.com",
-    projectId: "chiara-candles",
+    projectId: process.env.REACT_APP_PRJ_ID,
     storageBucket: "chiara-candles.appspot.com",
     messagingSenderId: "618230433775",
     appId: "1:618230433775:web:20181a04a3808a77e6581a",
