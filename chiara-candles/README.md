@@ -18,7 +18,7 @@ npm start
 
 ### CSS and Visuals
 
-Bootstrap and AOS for animations, no dependencies in the project, definition directly in index.html
+Bootstrap and AOS for animations & Google Fonts, no dependencies in the project, definition directly in index.html
 
 ### Link to Vercel deploy
 
