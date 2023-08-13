@@ -4,7 +4,7 @@ const productos = [
         "prodName": "Vela Concha",
         "prodPrice": 1500,
         "category": "velas",
-        "prodStock": 10,
+        "prodStock": 0,
         "prodImg": "../media/product-0.webp"
     },
     {
@@ -38,6 +38,46 @@ const productos = [
         "category": "velas",
         "prodStock": 50,
         "prodImg": "../media/product-4.webp"
+    },
+    {
+        "prodID": 5,
+        "prodName": "Apaga Velas",
+        "prodPrice": 1300,
+        "category": "accesorios",
+        "prodStock": 50,
+        "prodImg": "../media/product-5.webp"
+    },
+    {
+        "prodID": 6,
+        "prodName": "Set Mate / Termo",
+        "prodPrice": 2300,
+        "category": "brillos",
+        "prodStock": 5,
+        "prodImg": "../media/product-6.webp"
+    },
+    {
+        "prodID": 7,
+        "prodName": "Vaso Termico",
+        "prodPrice": 1500,
+        "category": "brillos",
+        "prodStock": 10,
+        "prodImg": "../media/product-7.webp"
+    },
+    {
+        "prodID": 8,
+        "prodName": "Porta Retrato",
+        "prodPrice": 1200,
+        "category": "brillos",
+        "prodStock": 10,
+        "prodImg": "../media/product-8.webp"
+    },
+    {
+        "prodID": 9,
+        "prodName": "Taza con Inicial (Personalizable)",
+        "prodPrice": 1500,
+        "category": "brillos",
+        "prodStock": 5,
+        "prodImg": "../media/product-9.webp"
     }
 ];
 

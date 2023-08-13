@@ -26,6 +26,11 @@ function NavBar() {
                   </Link>
                 </li>
                 <li className="nav-item">
+                  <Link className="nav-link" to="/category/brillos">
+                    Brillos Personalizados
+                  </Link>
+                </li>
+                <li className="nav-item">
                   <Link className="nav-link" to="/about">
                     Nosotros
                   </Link>

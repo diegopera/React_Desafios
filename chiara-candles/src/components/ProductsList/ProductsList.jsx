@@ -3,13 +3,13 @@ import "./ProductsList.css";
 import { Link } from "react-router-dom";
 
 function ProductsList(props) {
-  const { prodID, prodName, prodPrice, prodImg } = props;
+  const { id, prodName, prodPrice, prodImg } = props;
 
 let itemPriceARS = currencyConverter(prodPrice);
 
   return (
       <div className="col-lg-3 col-md-6 col-s-12 prod-container">
-        <Link to={`/product/${prodID}`}>
+        <Link to={`/product/${id}`}>
           <img
             src={prodImg}
             alt={prodName}
@@ -19,7 +19,6 @@ let itemPriceARS = currencyConverter(prodPrice);
         </Link>
           <b>{prodName} - {itemPriceARS}</b>
         </div>
-
   );
 }
 

@@ -1,0 +1,50 @@
+.cart-prod-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-prod-container div img {
+  width: 15%;
+  border-radius: 20px;
+  opacity: 50%;
+}
+.cart-prod-container div img:hover {
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+.cart-prod-container div p {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 0.5em;
+  cursor: default;
+}
+
+.empty-cart {
+  text-align: center;
+}
+
+.empty-cart > h2 {
+  font-size: larger;
+  color: #817575;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  width: 100%;
+}
+
+b {
+  cursor: default;
+}

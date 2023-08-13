@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
@@ -6,8 +7,8 @@ function Footer() {
       <div className="footer-container">
         <h2>Chiara Candles</h2>
         <h2>Seguinos en Instagram!</h2>
-        <a
-          href="https://www.instagram.com/chiaracandles/?hl=es"
+        <Link
+          to="https://www.instagram.com/chiaracandles/?hl=es"
           target="_blank"
         >
           <img
@@ -17,11 +18,11 @@ function Footer() {
             height="40"
             className="social"
           />
-        </a>
+        </Link>
         <h3>All Rights Reserved</h3>
       </div>
-      <a
-        href="https://api.whatsapp.com/send?phone=0123456789&text=Hola, me envias info!"
+      <Link
+        to="https://api.whatsapp.com/send?phone=0123456789&text=Hola, me envias info!"
         target="_blank"
       >
         <img
@@ -31,7 +32,7 @@ function Footer() {
           height="60"
           className="whats"
         />
-      </a>
+      </Link>
     </footer>
   );
 }
