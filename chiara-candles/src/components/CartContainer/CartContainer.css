@@ -1,19 +1,25 @@
-.cart-prod-container {
+.cart-prod-container, .form-container, .order-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.order-container div img {
+  width: 15%;
+  border-radius: 20px;
+  opacity: 50%;
+}
+
 .cart-prod-container div img {
   width: 30%;
   border-radius: 20px;
   opacity: 50%;
 }
-.cart-prod-container div img:hover {
+.cart-prod-container div img:hover, .order-container div img:hover {
   opacity: 100%;
   transition: opacity 1s;
 }
 
-.cart-prod-container div p {
+.cart-prod-container div p, .order-container div p {
   font-size: 1em;
   font-weight: 300;
   margin-top: 0.5em;
@@ -27,12 +33,6 @@
 .empty-cart > h2 {
   font-size: larger;
   color: #817575;
-}
-
-.form-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .form {

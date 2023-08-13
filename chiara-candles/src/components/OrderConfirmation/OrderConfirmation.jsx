@@ -45,7 +45,7 @@ const dispDate = `${purchDate.getDate()} de ${MESES[purchDate.getMonth()]} de ${
 
   return (
     <div id="main-fluid-container" className="container-fluid">
-      <div id="mainProd" className="row cart-prod-container">
+      <div id="mainProd" className="row order-container">
         <p>Datos de tu compra</p>
         <div>
             <p>Identificador: <b>{orderData.id}</b></p>
@@ -63,7 +63,7 @@ const dispDate = `${purchDate.getDate()} de ${MESES[purchDate.getMonth()]} de ${
             <div
               key={item.id}
               style={{ marginBottom: 10 }}
-              className="col-lg-12 col-md-12 col-s-12 prod-container"
+              className="col-lg-12 col-md-12 col-s-12 order-container"
             >
               <img src={item.prodImg} alt={item.prodName} height="210" />
               <p>
