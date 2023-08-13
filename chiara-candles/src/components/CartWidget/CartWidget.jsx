@@ -40,18 +40,6 @@ function CartWidget() {
               Vaciar Carrito
             </Link>
           </li>
-          {/* <li>
-            <img
-              src="./media/username.png"
-              alt="username"
-              width="30"
-              height="30"
-              className="usr-img"
-            />
-            <Link to="/" className="btn">
-              Login
-            </Link>
-          </li> */}
         </ul>
       </div>
     </div>
